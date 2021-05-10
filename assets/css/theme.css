@@ -5,7 +5,6 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
 :root {
-  --bs-blue: #3DAF33;
   --bs-indigo: #6610f2;
   --bs-purple: #5856d6;
   --bs-pink: #ff2d55;
@@ -284,7 +283,7 @@ table {
 caption {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
-  color: #adb5bd;
+  color: #555f69;
   text-align: left;
 }
 
@@ -2616,7 +2615,7 @@ progress {
 .form-text {
   margin-top: 0.25rem;
   font-size: 0.875em;
-  color: #adb5bd;
+  color: #555f69;
 }
 
 .form-control {
@@ -3170,15 +3169,15 @@ progress {
 }
 
 .form-range:disabled::-webkit-slider-thumb {
-  background-color: #adb5bd;
+  background-color: #555f69;
 }
 
 .form-range:disabled::-moz-range-thumb {
-  background-color: #adb5bd;
+  background-color: #555f69;
 }
 
 .form-range:disabled::-ms-thumb {
-  background-color: #adb5bd;
+  background-color: #555f69;
 }
 
 .input-group {
@@ -3549,14 +3548,14 @@ fieldset:disabled .btn {
 
 .btn-primary:hover {
   color: #fff;
-  background-color: #025ce2;
-  border-color: #0257d5;
+  background-color: #4F5B64;
+  border-color: #8B8B8B;
 }
 
 .btn-check:focus + .btn-primary, .btn-primary:focus {
   color: #fff;
-  background-color: #025ce2;
-  border-color: #0257d5;
+  background-color: #4F5B64;
+  border-color: #8B8B8B;
   -webkit-box-shadow: 0 0 0 0.2rem rgba(49, 132, 253, 0.5);
   box-shadow: 0 0 0 0.2rem rgba(49, 132, 253, 0.5);
 }
@@ -3565,7 +3564,7 @@ fieldset:disabled .btn {
 .btn-check:active + .btn-primary, .btn-primary:active, .btn-primary.active,
 .show > .btn-primary.dropdown-toggle {
   color: #fff;
-  background-color: #0257d5;
+  background-color: #8B8B8B;
   border-color: #0252c9;
 }
 
@@ -8926,7 +8925,7 @@ button.close {
 }
 
 .text-muted {
-  color: #adb5bd !important;
+  color: #555f69 !important;
 }
 
 .text-black-50 {
@@ -13802,7 +13801,7 @@ body {
   font-size: 1.0625rem;
   font-weight: 400;
   line-height: 1.6;
-  color: #161c2d;
+  color: #4F5B64;
   text-align: left;
   background-color: #fff;
   overflow-x: hidden;
@@ -13963,7 +13962,7 @@ body {
 }
 
 a.text-500 {
-  color: #adb5bd !important;
+  color: #555f69 !important;
 }
 
 a.text-500:hover {
