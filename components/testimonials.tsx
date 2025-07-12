@@ -14,7 +14,7 @@ export default function Testimonials() {
           <blockquote>
             <span className='text-xs text-gray-500 dark:text-neutral-200'>
               From securing our entire infrastructure to crafting a future-proof
-              ecommerce architecture, Abdulhaqq&apos;s done more than most CTOs
+              ecommerce architecture for <Link href='https://shoponclick.ng' target='_blank' className='dotted-lines'>ShopOnClick</Link>, Abdulhaqq&apos;s done more than most CTOs
               would-without ever being officially titled one. Every one of my
               brands has leaned on his technical brilliance through Haqqman.
             </span>
@@ -33,7 +33,7 @@ export default function Testimonials() {
                       href='https://linkpane.com/oluwaseunfj'
                       target='_blank'
                     >
-                      Oluwaseun 'Femi Joseph
+                      Oluwaseun &apos;Femi Joseph
                     </Link>
                   </div>
                 </div>
@@ -53,11 +53,14 @@ export default function Testimonials() {
             </span>
             <footer className='mt-3'>
               <div className='flex items-center gap-x-2'>
-                <img
+                <Image
                   className='shrink-0 size-5 rounded-full'
-                  src='https://images.unsplash.com/photo-1671726203390-cdc4354ee2eb?ixlib=rb-4.0.3&auto=format&fit=facearea&facepad=2&w=320&h=320&q=80'
-                  alt='Nicole Grazioso'
+                  src='https://dummyimage.com/200x200'
+                  alt='Mahmud Mahmud'
+                  width={50}
+                  height={50}
                 />
+
                 <div className='grow'>
                   <div className='text-xs text-gray-500 dark:text-neutral-500'>
                     Mahmud Mahmud, Clean Marine

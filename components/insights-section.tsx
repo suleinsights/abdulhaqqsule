@@ -35,7 +35,7 @@ export default function InsightsSection() {
             Building Tech Teams That Think Beyond Code
           </h5>
           <p className='mt-1 text-sm text-gray-500 dark:text-neutral-500'>
-            Beyond task completion lies real engineering impact. Here's how I
+            Beyond task completion lies real engineering impact. Here&apos;s how I
             shape teams to solve, not just ship.
           </p>
           <p className='mt-1'>

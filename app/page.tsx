@@ -24,7 +24,7 @@ export default function HomePage() {
 
         <div className='grow'>
           <h1 className='text-lg font-medium text-gray-800 dark:text-neutral-200'>
-            Hey, I'm Abdulhaqq 👋
+            Hey, I&apos;m Abdulhaqq 👋
           </h1>
           <p className='text-sm text-gray-600 dark:text-neutral-400'>
             Pan-African Software Engineer
@@ -52,7 +52,7 @@ export default function HomePage() {
           </Link>
           , I lead the engineering of scalable web solutions that help brands
           across Africa and beyond stand out in the digital landscape. Whether
-          it's designing intuitive interfaces or providing strategic guidance,
+          it&apos;s designing intuitive interfaces or providing strategic guidance,
           I&apos;m committed to delivering excellence and driving success.
         </p>
 

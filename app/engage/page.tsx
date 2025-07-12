@@ -33,7 +33,7 @@ export default function EngagePage() {
       {/** About Section */}
       <section className='mt-8 space-y-3'>
         <p className='text-sm text-gray-600 dark:text-neutral-400'>
-          Whether you're launching a new product, scaling your tech team, or
+          Whether you&apos;re launching a new product, scaling your tech team, or
           navigating a critical decision — this is your space to tap into over a
           decade of real CTO experience.
         </p>
