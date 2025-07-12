@@ -1,5 +1,7 @@
 import Image from 'next/image'
 import Link from 'next/link'
+import { FiMail } from 'react-icons/fi'
+import { FaXTwitter } from 'react-icons/fa6'
 
 export default function HomePage() {
   return (
@@ -53,45 +55,20 @@ export default function HomePage() {
 
         <ul className='mt-5 flex flex-col gap-y-3'>
           <li className='flex items-center gap-x-2.5'>
-            <svg
-              className='shrink-0 size-3.5'
-              xmlns='http://www.w3.org/2000/svg'
-              width='24'
-              height='24'
-              viewBox='0 0 24 24'
-              fill='none'
-              stroke='currentColor'
-              stroke-width='2'
-              stroke-linecap='round'
-              stroke-linejoin='round'
-            >
-              <rect width='20' height='16' x='2' y='4' rx='2' />
-              <path d='m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7' />
-            </svg>
+            <FiMail className='shrink-0 size-3.5' />
             <Link
-              className='text-[13px] text-gray-500 underline hover:text-gray-800 hover:decoration-2 focus:outline-none focus:decoration-2 dark:text-neutral-500 dark:hover:text-neutral-400'
               href='#'
+              className='text-sm border-b border-dotted text-gray-500 hover:text-gray-800 hover:decoration-2 focus:outline-none focus:decoration-2 dark:text-neutral-500 dark:hover:text-neutral-400'
             >
               email@example.com
             </Link>
           </li>
 
           <li className='flex items-center gap-x-2.5'>
-            <svg
-              className='shrink-0 size-3.5'
-              width='24'
-              height='24'
-              viewBox='0 0 24 24'
-              fill='none'
-              xmlns='http://www.w3.org/2000/svg'
-            >
-              <path
-                d='M14.1881 10.1624L22.7504 0H20.7214L13.2868 8.82385L7.34878 0H0.5L9.47944 13.3432L0.5 24H2.5291L10.3802 14.6817L16.6512 24H23.5L14.1881 10.1624ZM11.409 13.4608L3.26021 1.55962H6.37679L20.7224 22.5113H17.6058L11.409 13.4613V13.4608Z'
-                fill='currentColor'
-              />
-            </svg>
+            <FaXTwitter className='shrink-0 size-3.5' />
             <Link
               href='#'
+              target='_blank'
               className='text-sm border-b border-dotted text-gray-500 hover:text-gray-800 hover:decoration-2 focus:outline-none focus:decoration-2 dark:text-neutral-500 dark:hover:text-neutral-400'
             >
               @suleinsights

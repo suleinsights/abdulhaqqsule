@@ -20,7 +20,13 @@ const Header = () => {
             aria-label='Preline'
             className='flex-none rounded-md text-xl inline-block font-semibold focus:outline-none focus:opacity-80'
           >
-            <Image src='https://dummyimage.com/300x50' alt='' width={100} height={20} className="w-24 h-auto" />
+            <Image
+              src='/meta/abdulhaqq-logomark.png'
+              alt=''
+              width={50}
+              height={50}
+              className='w-12 h-auto p-2'
+            />
           </Link>
           {/* End Logo */}
 

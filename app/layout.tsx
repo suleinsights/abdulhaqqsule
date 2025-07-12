@@ -1,7 +1,7 @@
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import '@/styles/globals.css'
-import Header from '@/scaffold/Header2'
+import Header from '@/scaffold/header'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   },
   description: 'Pan-African Software Engineer',
   twitter: {
-    //card: 'Abdulhaqq Sule',
+    card: 'Abdulhaqq Sule',
     title: {
       template: '%s — Abdulhaqq Sule',
       default: 'Abdulhaqq Sule',
@@ -21,6 +21,9 @@ export const metadata: Metadata = {
     description: 'Pan-African Software Engineer',
     images: ['/meta/twitter-image.png'],
   },
+  metadataBase: new URL(
+    process.env.NEXT_PUBLIC_APP_BASE_URL || 'http://localhost'
+  ),
 }
 
 export default function RootLayout({
