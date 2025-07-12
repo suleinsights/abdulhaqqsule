@@ -27,7 +27,7 @@ export default function HomePage() {
             Hey, I'm Abdulhaqq 👋
           </h1>
           <p className='text-sm text-gray-600 dark:text-neutral-400'>
-            Software Engineer
+            Pan-African Software Engineer
           </p>
         </div>
       </section>
@@ -35,11 +35,10 @@ export default function HomePage() {
       {/** About Section */}
       <section className='mt-8'>
         <p className='text-sm text-gray-600 dark:text-neutral-400'>
-          I'm a Pan-African Software Engineer with over a decade of experience
-          in transforming ideas into impactful digital experiences. My passion
-          lies at the intersection of technology, design, and business strategy,
-          where I bring a unique blend of creativity and technical expertise to
-          every project.
+          With over a decade of experience in transforming ideas into impactful
+          digital experiences, my passion lies at the intersection of
+          technology, design, and business strategy, where I bring a unique
+          blend of creativity and technical expertise to every project.
         </p>
 
         <p className='mt-3 text-sm text-gray-600 dark:text-neutral-400'>

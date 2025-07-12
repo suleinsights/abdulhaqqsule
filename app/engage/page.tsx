@@ -50,61 +50,71 @@ export default function EngagePage() {
       </section>
 
       {/** Services Section */}
-      <section className='my-10'>
-        <h2 className='mb-3 font-medium text-gray-800 dark:text-neutral-200'>
-          CTO Services
-        </h2>
+     {/** Services Section */}
+<section className='my-10'>
+  <h2 className='mb-3 font-medium text-gray-800 dark:text-neutral-200'>
+    CTO Services
+  </h2>
 
-        <div className='grid grid-cols-1 sm:grid-cols-2 gap-4'>
-          {[...Array(4)].map((_, i) => (
-            <div
-              key={i}
-              className='group p-4 border border-gray-200 rounded-xl dark:border-neutral-700 bg-white dark:bg-neutral-900 shadow-sm hover:shadow-xl transition-all duration-300 hover:scale-[1.02] cursor-pointer'
-            >
-              <Image
-                src='https://dummyimage.com/200x200'
-                className='shrink-0 size-10 mb-3 rounded-md'
-                width={200}
-                height={200}
-                alt='Service Image'
-              />
+  <div className='grid grid-cols-1 sm:grid-cols-2 gap-4'>
+    {[
+      {
+        icon: '/media/strategy-icon.svg',
+        label: 'Engineering Strategy Session',
+        subtitle: 'Strategy & Technical Roadmapping',
+        description:
+          'Tailored guidance on tech stacks, team structure, and development strategy to align with your product vision and business goals.',
+      },
+      {
+        icon: '/media/speed-icon.svg',
+        label: 'Product Architecture Review',
+        subtitle: 'Technical Deep Dive',
+        description:
+          'I\’ll audit your product architecture, APIs, and workflows — then suggest improvements for scalability, security, and performance.',
+      },
+      {
+        icon: '/media/performance-icon.svg',
+        label: 'Startup Due Diligence',
+        subtitle: "Founder's Advisory",
+        description:
+          'For early-stage founders and VCs — I\’ll evaluate product readiness, engineering team, and dev processes before you raise or invest.',
+      },
+      {
+        icon: '/media/mentorship-icon.svg',
+        label: 'Engineering Career Path',
+        subtitle: 'Mentorship Track',
+        description:
+          'For junior and mid-level devs — career guidance, stack clarity, and how to move from coding to leading.',
+      },
+    ].map((service, i) => (
+      <div
+        key={i}
+        className='group p-4 border border-gray-200 rounded-xl dark:border-neutral-700 bg-white dark:bg-neutral-900 shadow-sm hover:shadow-xl transition-all duration-300 hover:scale-[1.02] cursor-pointer'
+      >
+        <Image
+          src={service.icon}
+          alt={`${service.label} Icon`}
+          width={200}
+          height={200}
+          className='shrink-0 size-10 mb-3 rounded-md'
+        />
 
-              <h3 className='mb-1 text-xs text-gray-600 dark:text-neutral-400'>
-                {
-                  [
-                    'Strategy & Technical Roadmapping',
-                    'Technical Deep Dive',
-                    "Founder's Advisory",
-                    'Mentorship Track',
-                  ][i]
-                }
-              </h3>
+        <h3 className='mb-1 text-xs text-gray-600 dark:text-neutral-400'>
+          {service.subtitle}
+        </h3>
 
-              <p className='font-semibold text-sm text-gray-800 dark:text-neutral-200'>
-                {
-                  [
-                    'Engineering Strategy Session',
-                    'Product Architecture Review',
-                    'Startup Due Diligence',
-                    'Engineering Career Path',
-                  ][i]
-                }
-              </p>
+        <p className='font-semibold text-sm text-gray-800 dark:text-neutral-200'>
+          {service.label}
+        </p>
 
-              <p className='mt-1 text-sm text-gray-600 dark:text-neutral-400'>
-                {
-                  [
-                    'Tailored guidance on tech stacks, team structure, and development strategy to align with your product vision and business goals.',
-                    'I\’ll audit your product architecture, APIs, and workflows — then suggest improvements for scalability, security, and performance.',
-                    'For early-stage founders and VCs — I\’ll evaluate product readiness, engineering team, and dev processes before you raise or invest.',
-                    'For junior and mid-level devs — career guidance, stack clarity, and how to move from coding to leading.',
-                  ][i]
-                }
-              </p>
-            </div>
-          ))}
-        </div>
-      </section>
+        <p className='mt-1 text-sm text-gray-600 dark:text-neutral-400'>
+          {service.description}
+        </p>
+      </div>
+    ))}
+  </div>
+</section>
+
     </>
   )
 }
