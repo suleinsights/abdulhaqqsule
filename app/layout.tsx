@@ -1,7 +1,7 @@
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
-import '@/public/css/globals.css'
-import Header from '@/scaffold/Header'
+import '@/styles/globals.css'
+import Header from '@/scaffold/Header2'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -33,7 +33,7 @@ export default function RootLayout({
       <body className={`${inter.className} dark:bg-neutral-900`}>
         <Header />
         <main id='content'>
-          <div className='w-full max-w-2xl mx-auto pt-10 md:pt-16 px-4 sm:px-6 lg:px-8'>
+          <div className='w-full max-w-2xl mx-auto pt-10 px-4 lg:px-8'>
             {children}
           </div>
         </main>

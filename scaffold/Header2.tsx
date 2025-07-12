@@ -16,7 +16,7 @@ const Header = () => {
         <div className='px-4 md:px-0 flex justify-between items-center'>
           {/* Logo */}
           <Link
-            href='../../templates/personal/index.html'
+            href='/'
             aria-label='Preline'
             className='flex-none rounded-md text-xl inline-block font-semibold focus:outline-none focus:opacity-80'
           >

@@ -8,7 +8,7 @@ export default function HomePage() {
       <section className='flex items-center gap-x-3'>
         <div className='shrink-0'>
           <Image
-            src='https://dummyimage.com/100x100'
+            src='/media/abdulhaqq-avatar.jpg'
             alt='Abdulhaqq Avatar'
             width={100}
             height={100}
@@ -41,7 +41,7 @@ export default function HomePage() {
           <Link
             href='https://haqqman.com'
             target='_blank'
-            className='border-b border-dotted'
+            className='border-b border-dotted hover:text-green-500'
           >
             Haqqman
           </Link>
